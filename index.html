@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디지털 명함</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card-flipper" id="cardFlipper">
+            <div class="card-face card-front">
+                <img src="위니브명함_앞.png" alt="명함 앞면" class="card-image">
+            </div>
+            <div class="card-face card-back">
+                <img src="위니브명함_뒤.png" alt="명함 뒷면" class="card-image">
+            </div>
+        </div>
+    </div>
+    
+    <button class="flip-button" onclick="flipCard()">
+        <span id="buttonText">뒤집기 ↻</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
