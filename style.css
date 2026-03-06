@@ -10,6 +10,10 @@ body {
     justify-content: center;
 }
 
+.widget {
+    /* display: none; */
+}
+
 .card-container {
     perspective: 1000px;
     width: 350px;
