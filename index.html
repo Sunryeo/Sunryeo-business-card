@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>디지털 명함</title>
     <link rel="stylesheet" href="style.css">
-    <!-- 위젯 스크립트 로드 -->
-    <!-- <script src="https://count.weniv.co.kr/static/js/hit-counter-widget.js"></script> -->
+    <meta property="og:title" content="명함">
+    <meta property="og:description" content="페이지에 대한 간단한 설명">
+    <meta property="og:image" content="https://sunryeo.github.io/Sunryeo-business-card/bus_token.jpg">
+    <meta property="og:url" content="https://sunryeo.github.io/Sunryeo-business-card/">
+    <meta property="og:type" content="website">
 </head>
 <body>
     <div class="card-container">
         <!-- 위젯 표시할 위치에 삽입 -->
-         <div class="widget">
-            <img src="https://count.weniv.co.kr/api/v1/badge?url=https%3A%2F%2Fsunryeo.github.io%2FSunryeo-business-card%2F&label=hits" alt="Hits">
-         </div>
+        <img src="https://count.weniv.co.kr/api/v1/badge?url=https%3A%2F%2Fsunryeo.github.io%2FSunryeo-business-card%2F&label=hits" alt="Hits" class="widget">
         <div class="card-flipper" id="cardFlipper">
             <div class="card-face card-front">
                 <img src="위니브명함_앞.png" alt="명함 앞면" class="card-image">
@@ -24,6 +25,8 @@
         </div>
     </div>
     
+    <a href="https://forms.gle/Sx26KsuQ8PbGybVBA" class="survey-link">설문링크</a>
+
     <button class="flip-button" onclick="flipCard()">
         <span id="buttonText">뒤집기 ↻</span>
     </button>
